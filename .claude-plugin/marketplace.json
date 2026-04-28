@@ -28,10 +28,11 @@
       "name": "mp-test-plugin-local",
       "source": {
         "source": "url",
-        "url": "file:///Users/0xnfrith/mp-testing/local-plugin"
+        "url": "file:///Users/0xnfrith/mp-testing/local-plugin",
+        "ref": "v1.0.0"
       },
-      "version": "0.0.1",
-      "description": "Local-path test entry — file:// URL form via url source type"
+      "version": "1.0.0",
+      "description": "Local-path entry pinned to v1.0.0 via ref — should NOT install HEAD"
     }
   ]
 }
