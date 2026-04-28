@@ -26,9 +26,12 @@
     },
     {
       "name": "mp-test-plugin-local",
-      "source": "/Users/0xnfrith/mp-testing/local-plugin",
+      "source": {
+        "source": "url",
+        "url": "file:///Users/0xnfrith/mp-testing/local-plugin"
+      },
       "version": "0.0.1",
-      "description": "Local-path test entry — source as bare string (parallel to './')"
+      "description": "Local-path test entry — file:// URL form via url source type"
     }
   ]
 }
