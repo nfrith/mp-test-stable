@@ -23,6 +23,15 @@
       },
       "version": "1.1.0",
       "description": "Marketplace channel test plugin (beta v1.1.0 entry, same marketplace)"
+    },
+    {
+      "name": "mp-test-plugin-local",
+      "source": {
+        "source": "path",
+        "path": "/Users/0xnfrith/mp-testing/local-plugin"
+      },
+      "version": "0.0.1",
+      "description": "Local-path test entry — source points at /Users/0xnfrith/mp-testing/local-plugin"
     }
   ]
 }
