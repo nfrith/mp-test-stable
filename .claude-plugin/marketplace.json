@@ -12,7 +12,17 @@
         "ref": "v1.0.0"
       },
       "version": "1.0.0",
-      "description": "Marketplace channel test plugin (stable channel pin)"
+      "description": "Marketplace channel test plugin (stable v1.0.0 entry)"
+    },
+    {
+      "name": "mp-test-plugin-beta",
+      "source": {
+        "source": "github",
+        "repo": "nfrith/mp-test-plugin",
+        "ref": "v1.1.0"
+      },
+      "version": "1.1.0",
+      "description": "Marketplace channel test plugin (beta v1.1.0 entry, same marketplace)"
     }
   ]
 }
